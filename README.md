@@ -1,2 +1,2 @@
-# CS273C
+# CS273C Final Project
 Placeholder
