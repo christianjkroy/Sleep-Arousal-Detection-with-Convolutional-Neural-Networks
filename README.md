@@ -1,2 +1,2 @@
-# CS273C Final Project
+# Sleep Arousal Detection with Convolutional Neural Networks
 Loading...
