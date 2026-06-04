@@ -1,4 +1,4 @@
-# Sleep Arousal Detection with Convolutional Neural Networks
+# Sleep Arousal Detection with Convolutional Neural Networkssd
 
 Reproduction study of Li & Guan's DeepSleep model for automated sleep arousal detection from polysomnographic recordings, built for GENE 222 / CS 273C at Stanford.
 
