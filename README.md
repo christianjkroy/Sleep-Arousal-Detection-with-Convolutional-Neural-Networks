@@ -1,8 +1,20 @@
 # Sleep Arousal Detection with Convolutional Neural Networks
 
-Reproduction study of Li & Guan's DeepSleep model for automated sleep arousal detection from polysomnographic recordings, built for GENE 222 / CS 273C at Stanford.
+**Reproduction of the DeepSleep CNN for detecting sleep arousals from overnight sleep recordings.**
 
-Log a PSG recording through the preprocessing pipeline and get arousal heterogeneity analysis, signal visualizations, and scalability benchmarks across cloud infrastructure.
+Stanford GENE 222 / CS 273C
+
+## Highlights
+
+- Reproduced Li and Guan's DeepSleep study, including arousal patterns across subjects (mean 30.3 events, range 1 to 91)
+- Built a preprocessing pipeline that normalizes and windows 13 signal channels from PhysioNet sleep recordings
+- Scaled a cloud pipeline on Google Cloud Batch with 98.7% weak scaling efficiency at about $0.044 per participant
+
+## Built with
+
+Python · NumPy · SciPy · Matplotlib · Google Cloud Batch · Jupyter
+
+---
 
 ## What it does
 
