@@ -1,14 +1,14 @@
 # Sleep Arousal Detection with Convolutional Neural Networks
 
-**Reproduction of the DeepSleep CNN for detecting sleep arousals from overnight sleep recordings.**
+**A reproduction of DeepSleep, a published neural network that detects arousals (brief awakenings) during sleep from overnight recordings.**
 
 Stanford GENE 222 / CS 273C
 
 ## Highlights
 
-- Reproduced Li and Guan's DeepSleep study, including arousal patterns across subjects (mean 30.3 events, range 1 to 91)
-- Built a preprocessing pipeline that normalizes and windows 13 signal channels from PhysioNet sleep recordings
-- Scaled a cloud pipeline on Google Cloud Batch with 98.7% weak scaling efficiency at about $0.044 per participant
+- Reproduced 2 figures from Li and Guan's DeepSleep paper, including arousal counts across subjects (average 30.3, range 1 to 91)
+- Processed 13 signal channels from PhysioNet sleep recordings, such as brain waves, breathing, and heart rhythm, into normalized fixed-length windows
+- Scaled the pipeline on Google Cloud Batch at about $0.044 per participant, with 98.7% weak scaling efficiency (run time stayed nearly flat as data and machines grew together)
 
 ## Built with
 
