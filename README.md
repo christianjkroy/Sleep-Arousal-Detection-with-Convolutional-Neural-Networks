@@ -19,7 +19,7 @@ Python · NumPy · SciPy · Matplotlib · Google Cloud Batch · Jupyter
 ## What it does
 
 - **Preprocessing pipeline:** loads `.mat`/`.hea`/`.arousal` files from PhysioNet, applies quantile normalization, excludes unlabeled regions, and extracts 30-second signal windows across 13 channels
-- **Reproduced figures:** Figure 2 (arousal heterogeneity scatter across subjects, mean 30.3 events, range 1–91) and Figure 6b (30-second PSG visualization with arousal shading)
+- **Reproduced figures:** Figure 2 (arousal heterogeneity scatter across subjects, mean 30.3 events, range 1 to 91) and Figure 6b (30-second PSG visualization with arousal shading)
 - **Scalability testing:** GATK HaplotypeCaller on Google Cloud Batch at N = 1, 2, 4, 8, 16 participants; 98.7% weak scaling efficiency; ~$0.044/participant
 - **LLM-assisted analysis:** structured notebook using `sdo_llm_magic` for guided reasoning at each pipeline stage
 
