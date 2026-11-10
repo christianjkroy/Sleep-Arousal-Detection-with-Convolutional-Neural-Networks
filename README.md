@@ -2,9 +2,7 @@
 
 **A reproduction of DeepSleep, a published neural network that detects arousals (brief awakenings) during sleep from overnight recordings.**
 
-Stanford GENE 222 / CS 273C: Cloud Computing for Biology and Healthcare · Spring 2026 · Team of 2
-
-**[View the poster (PDF)](Sleep%20Arousal%20Detection%20with%20Convolutional%20Neural%20Networks%20Poster.pdf)**
+Stanford GENE 222 / CS 273C: Cloud Computing for Biology and Healthcare · Spring 2026 · Team of 2 · [Poster](Sleep%20Arousal%20Detection%20with%20Convolutional%20Neural%20Networks%20Poster.pdf)
 
 ## Highlights
 
