@@ -4,6 +4,8 @@
 
 Stanford GENE 222 / CS 273C: Cloud Computing for Biology and Healthcare · Spring 2026 · Team of 2
 
+**[View the poster (PDF)](Sleep%20Arousal%20Detection%20with%20Convolutional%20Neural%20Networks%20Poster.pdf)**
+
 ## Highlights
 
 - Reproduced 2 figures from Li and Guan's DeepSleep paper, including arousal counts across subjects (average 30.3, range 1 to 91)
